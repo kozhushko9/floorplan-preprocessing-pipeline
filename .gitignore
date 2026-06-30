@@ -1,0 +1,104 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# =====================
+# Virtual environments
+# =====================
+venv/
+env/
+.venv/
+ENV/
+
+# =====================
+# Jupyter Notebook checkpoints
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# IDEs
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Large ML model checkpoints (IMPORTANT)
+# =====================
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+models/
+
+# =====================
+# Dataset (usually too large for GitHub)
+# =====================
+data/
+datasets/
+*.png
+*.jpg
+*.jpeg
+*.tiff
+
+# (If you want to keep structure, use:
+# !data/sample/
+# !data/README.md
+# )
+
+# =====================
+# Outputs (generated results)
+# =====================
+outputs/
+results/
+masks/
+predictions/
+polygons/
+graphs/
+
+# =====================
+# Logs
+# =====================
+logs/
+*.log
+
+# =====================
+# Temporary files
+# =====================
+tmp/
+temp/
+
+# =====================
+# Cache (OpenCV / Torch / HF / etc.)
+# =====================
+.cache/
+torch/
+huggingface/
+.matplotlib/
+
+# =====================
+# SAM / Segment Anything specific (optional but useful)
+# =====================
+sam_vit_*.pth
+
+# =====================
+# Backup files
+# =====================
+*~
+*.bak
+*.orig

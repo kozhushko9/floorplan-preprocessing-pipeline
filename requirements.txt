@@ -1,0 +1,8 @@
+opencv-python
+pandas
+matplotlib
+ipykernel
+segment-anything
+torch
+torchvision
+huggingface_hub
